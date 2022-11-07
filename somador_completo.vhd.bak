@@ -1,0 +1,13 @@
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity somadorComp is
+  port(A, B, C: in std_logic; soma, carry: out std_logic); ---ou out / _vector
+end entity somadorComp;
+
+architecture logic of somadorComp is
+  begin
+    soma <= A xor B xor C;
+    carry <= A and B or A and C or B and C;
+end architecture;

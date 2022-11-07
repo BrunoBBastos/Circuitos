@@ -1,0 +1,50 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project Teste1
+vsim -voptargs=+acc work.somadorcomp
+# vsim -voptargs=+acc work.somadorcomp 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.somadorcomp(logic)
+add wave -position insertpoint  \
+sim:/somadorcomp/qqr1 \
+sim:/somadorcomp/qqr2 \
+sim:/somadorcomp/soma \
+sim:/somadorcomp/carry
+force -freeze sim:/somadorcomp/qqr1 1 0
+force -freeze sim:/somadorcomp/qqr2 0 0
+run
+force -freeze sim:/somadorcomp/qqr2 1 0
+force -freeze sim:/somadorcomp/qqr2 1 0
+run
+quit -sim
+# Compile of somador_completo.vhd failed with 1 errors.
+# Compile of somador_completo.vhd was successful.
+vsim -voptargs=+acc work.somadorcomp
+# vsim -voptargs=+acc work.somadorcomp 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.somadorcomp(logic)
+add wave -position insertpoint  \
+sim:/somadorcomp/A \
+sim:/somadorcomp/B \
+sim:/somadorcomp/C \
+sim:/somadorcomp/soma \
+sim:/somadorcomp/carry
+force -freeze sim:/somadorcomp/A 1 0
+force -freeze sim:/somadorcomp/B 0 0
+force -freeze sim:/somadorcomp/C 1 0
+run
+force -freeze sim:/somadorcomp/B 1 0
+run
+force -freeze sim:/somadorcomp/C 0 0
+force -freeze sim:/somadorcomp/B 0 0
+run
+quit -sim
+# Compile of somador_meio.vhd failed with 2 errors.
+# Compile of somador_meio.vhd failed with 1 errors.
+# Compile of somador_meio.vhd failed with 2 errors.
+# Compile of somador_meio.vhd failed with 2 errors.
+# Compile of somador_meio.vhd failed with 2 errors.
+# Compile of somador_meio.vhd was successful.

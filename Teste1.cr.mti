@@ -1,0 +1,17 @@
+C:/altera/13.0/somador_completo.vhd {1 {vcom -work work -2002 -explicit C:/altera/13.0/somador_completo.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity somadorComp
+-- Compiling architecture logic of somadorComp
+
+} {} {}} C:/altera/13.0/somador_meio.vhd {1 {vcom -work work -2002 -explicit C:/altera/13.0/somador_meio.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity somadorMeio
+-- Compiling architecture logic of somadorMeio
+
+} {} {}}

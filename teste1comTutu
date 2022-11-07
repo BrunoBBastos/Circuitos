@@ -1,0 +1,7 @@
+vsim somador completo
+add wave *
+
+force qqr1 1 5s
+force qqr2 0 5s
+
+run 5s
