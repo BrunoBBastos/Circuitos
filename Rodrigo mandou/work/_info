@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+dF:\Users\Bruno\Desktop\Acadêmicos\UFRN\6\circuitos digitais\repo\Circuitos
+Enameless
+Z0 w1667884189
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dF:\Users\Bruno\Desktop\Acadêmicos\UFRN\6\circuitos digitais\repo\Circuitos\Rodrigo mandou
+Z4 8F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/add3.vhd
+Z5 FF:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/add3.vhd
+l0
+L5
+VkXQUHT_KQJ;C`mV[CfXo[3
+!s100 1]JGV>lJLkVdVOI8adBIn1
+Z6 OV;C;10.1d;51
+32
+!i10b 1
+Z7 !s108 1667886785.013000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/add3.vhd|
+Z9 !s107 F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/add3.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+Alogic
+R1
+R2
+Z12 DEx4 work 8 nameless 0 22 kXQUHT_KQJ;C`mV[CfXo[3
+l10
+L9
+Z13 VjANNVGAn7C_WN7L;R`lAG2
+Z14 !s100 QnDXgPDXn]f>nCO0;olfO3
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Eseg7
+Z15 w1667884576
+R1
+R2
+R3
+Z16 8F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/seg7.vhd
+Z17 FF:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/seg7.vhd
+l0
+L6
+V^RUBll^I:YLH31eWiZ^d53
+R6
+32
+Z18 !s108 1667885029.581000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/seg7.vhd|
+Z20 !s107 F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/seg7.vhd|
+R10
+R11
+!s100 eR969Gh?g^oCC:88Z]m;S0
+!i10b 1
+Alogic
+R1
+R2
+DEx4 work 4 seg7 0 22 ^RUBll^I:YLH31eWiZ^d53
+l18
+L15
+VMfnT>z5fN_PK5gO_lXG>]0
+R6
+32
+R18
+R19
+R20
+R10
+R11
+!s100 [3e[zll@W]P85BX3]_<z=1
+!i10b 1

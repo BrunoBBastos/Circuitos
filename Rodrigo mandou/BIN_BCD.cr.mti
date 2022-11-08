@@ -1,0 +1,17 @@
+{F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/add3.vhd} {1 {vcom -work work -2002 -explicit {F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/add3.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nameless
+-- Compiling architecture logic of nameless
+
+} {} {}} {F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/seg7.vhd} {1 {vcom -work work -2002 -explicit {F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/Rodrigo mandou/seg7.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity seg7
+-- Compiling architecture logic of seg7
+
+} {} {}}
