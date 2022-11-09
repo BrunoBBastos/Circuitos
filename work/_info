@@ -3,33 +3,33 @@ K3
 13
 cModel Technology
 dC:\altera\13.0
-Enameless
-Z0 w1667883189
+Eadd3
+Z0 w1667952450
 Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z3 dF:\Users\Bruno\Desktop\Acadêmicos\UFRN\6\circuitos digitais\repo\Circuitos
-Z4 8F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/map.vhd
-Z5 FF:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/map.vhd
+Z3 dD:\Documentos\Github\Circuitos
+Z4 8D:/Documentos/Github/Circuitos/add3.vhd
+Z5 FD:/Documentos/Github/Circuitos/add3.vhd
 l0
 L5
-VkXQUHT_KQJ;C`mV[CfXo[3
-!s100 1]JGV>lJLkVdVOI8adBIn1
+VBKb6@;eo>;Hi>80`RbjdM2
+!s100 icVQE7>6^`?H8MaQRzUL53
 Z6 OV;C;10.1d;51
 32
 !i10b 1
-Z7 !s108 1667883189.806000
-Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/map.vhd|
-Z9 !s107 F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/map.vhd|
+Z7 !s108 1667952460.140000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Documentos/Github/Circuitos/add3.vhd|
+Z9 !s107 D:/Documentos/Github/Circuitos/add3.vhd|
 Z10 o-work work -2002 -explicit -O0
 Z11 tExplicit 1
 Alogic
 R1
 R2
-Z12 DEx4 work 8 nameless 0 22 kXQUHT_KQJ;C`mV[CfXo[3
+Z12 DEx4 work 4 add3 0 22 BKb6@;eo>;Hi>80`RbjdM2
 l10
 L9
-VjANNVGAn7C_WN7L;R`lAG2
-!s100 QnDXgPDXn]f>nCO0;olfO3
+VR`iLHj2@M];U59FVCXm]60
+!s100 ?BYF52>Edf^zCH]CCb8VJ0
 R6
 32
 !i10b 1
@@ -38,3 +38,73 @@ R8
 R9
 R10
 R11
+Econverterbinbcd
+Z13 w1667951096
+R1
+R2
+R3
+Z14 8D:/Documentos/Github/Circuitos/ConverterBinBcd.vhd
+Z15 FD:/Documentos/Github/Circuitos/ConverterBinBcd.vhd
+l0
+L5
+V?Ygz2>=CS[M8]d_d7;zF71
+R6
+32
+Z16 !s108 1667951105.246000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Documentos/Github/Circuitos/ConverterBinBcd.vhd|
+Z18 !s107 D:/Documentos/Github/Circuitos/ConverterBinBcd.vhd|
+R10
+R11
+!s100 c056]@H4?BT`hBADNPOI11
+!i10b 1
+Alogic
+R1
+R2
+DEx4 work 15 converterbinbcd 0 22 ?Ygz2>=CS[M8]d_d7;zF71
+l16
+L9
+VCPi]l:`;2CVbb<H>=TdXz2
+!s100 ?=UU:U^R?XmYI>R=dG<]R0
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!i10b 1
+Enameless
+Z19 w1667883189
+R1
+R2
+Z20 dF:\Users\Bruno\Desktop\Acadêmicos\UFRN\6\circuitos digitais\repo\Circuitos
+Z21 8F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/map.vhd
+Z22 FF:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/map.vhd
+l0
+L5
+VkXQUHT_KQJ;C`mV[CfXo[3
+R6
+32
+Z23 !s108 1667883189.806000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/map.vhd|
+Z25 !s107 F:/Users/Bruno/Desktop/Acadêmicos/UFRN/6/circuitos digitais/repo/Circuitos/map.vhd|
+R10
+R11
+!s100 1]JGV>lJLkVdVOI8adBIn1
+!i10b 1
+Alogic
+R1
+R2
+DEx4 work 8 nameless 0 22 kXQUHT_KQJ;C`mV[CfXo[3
+l10
+L9
+VjANNVGAn7C_WN7L;R`lAG2
+R6
+32
+R23
+R24
+R25
+R10
+R11
+!s100 QnDXgPDXn]f>nCO0;olfO3
+!i10b 1

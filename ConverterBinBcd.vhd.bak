@@ -1,0 +1,27 @@
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ConverterBinBcd is
+  port(SW: in std_logic_vector(7 downto 0); bcd: out std_logic_vector(11 downto 0));
+end ConverterBinBcd;
+
+architecture logic of ConverterBinBcd is
+  component add3 is
+    port(A0, A1, A2, A3: in std_logic; S0, S1, S2, S3: out std_logic);
+  end component;
+  
+  signal s: std_logic_vector(18 downto 0);
+  
+  begin
+    bloco1: add3 port map(SW(5), SW(6), SW(7), '0', s(0), s(1), s(2), s(3));
+    bloco2: add3 port map(SW(4), s(0), s(1), s(2), s(4), s(5), s(6), s(7)); --- s7 >>> A1 do bloco6
+    bloco3: add3 port map(SW(3), s(4), s(5), s(6), s(8), s(9), s(10), s(11)); --- s11 >>> A0 do bloco6
+    bloco4: add3 port map(SW(2), s(8), s(9), s(10), s(12), s(13), s(14), s(15)); --- s15 >>> A0 bloco7
+    bloco5: add3 port map(SW(1), s(12), s(13), s(14), bcd(1), bcd(2), bcd(3), bcd(4));
+    bloco6: add3 port map(s(11), s(7), s(3), '0', s(16), s(17), s(18), bcd(9));
+    bloco7: add3 port map(s(15), s(16), s(17), s(18), bcd(5), bcd(6), bcd(7), bcd(8));
+    bcd(0) <= SW(0);
+    bcd(10) <= '0';
+    bcd(11) <= '0';
+end logic;
