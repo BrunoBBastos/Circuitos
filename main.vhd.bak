@@ -25,7 +25,7 @@ end component;
   
   begin
     U1: ConverterBinBcd port map(SW, s);
-    U2: seg7 port map (s(3 downto 0), hex0);
-    U3: seg7 port map (s(7 downto 4), hex1);
-    U4: seg7 port map (s(11 downto 8), hex2);
+    U2: seg7 port map (s(3 downto 0), hex0)
+    U3: seg7 port map (s(7 downto 4), hex1)
+    U4: seg7 port map (s(11 downto 8), hex2)
 end logic;

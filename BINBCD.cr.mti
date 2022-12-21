@@ -1,9 +1,25 @@
-D:/Documentos/Github/Circuitos/ConverterBinBcd.vhd {1 {vcom -work work -2002 -explicit D:/Documentos/Github/Circuitos/ConverterBinBcd.vhd
+D:/Documentos/Github/Circuitos/seg7.vhd {1 {vcom -work work -2002 -explicit D:/Documentos/Github/Circuitos/seg7.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity seg7
+-- Compiling architecture logic of seg7
+
+} {} {}} D:/Documentos/Github/Circuitos/ConverterBinBcd.vhd {1 {vcom -work work -2002 -explicit D:/Documentos/Github/Circuitos/ConverterBinBcd.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity ConverterBinBcd
 -- Compiling architecture logic of ConverterBinBcd
+
+} {} {}} D:/Documentos/Github/Circuitos/add3.vhd {1 {vcom -work work -2002 -explicit D:/Documentos/Github/Circuitos/add3.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity add3
+-- Compiling architecture logic of add3
 
 } {} {}}
